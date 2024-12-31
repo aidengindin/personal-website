@@ -11,6 +11,26 @@ My main focus at the moment, [KineticAI](https://github.com/aidengindin/KineticA
 Using a microservices architecture, the application loads data from third-party APIs into a database and performs various analytics, including weather impact modeling, AI-based sentiment analysis, and race prediction.
 While KineticAI is still in early development and I’m still working on implementing most of its planned features, I’m excited to bring my data engineering skills to one of my hobbies and built something I can get real value out of.
 
+# Personal website (this site!)
+
+A static site built with [Zola](https://www.getzola.org/) and the [Terminimal theme](https://github.com/pawroman/zola-theme-terminimal), featuring automated deployment to AWS S3.
+Key technical aspects:
+
+- **CI/CD Pipeline**: GitHub Actions workflow that automatically builds and deploys on pushes to main
+- **Infrastructure**: 
+  - S3 bucket configured for static website hosting with public access
+  - Route 53 for DNS management
+  - ACM for SSL certificate management
+  - IAM roles and policies configured following principle of least privilege
+  - Cloudfront for content delivery and HTTPS
+- **Development**: 
+  - Content written in Markdown
+  - Local development using Nix flake for reproducible dev environment and consistent Zola versions
+  - Git submodules for theme management
+
+Building this site didn't require any programming, but it was a chance for me to practice my DevOps skills.
+While the source code doesn't contain anything too interesting, it's publicly available on [GitHub](https://github.com/aidengindin/personal-website).
+
 # gpm-to-spotify
 
 When Google announced they were shutting down Google Play Music, I realized that I would have to find another music streaming service.
