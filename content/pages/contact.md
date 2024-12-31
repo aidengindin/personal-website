@@ -3,18 +3,18 @@ title = "Contact"
 template = "page.html"
 +++
 
-# Get in Touch
+# Get in touch
 
 I'm always interested in discussing new opportunities, technical challenges, or potential collaborations.
 
-## How to Reach Me
+## How to reach me
 
 - **GitHub**: [@aidengindin](https://github.com/aidengindin)
 - **Email**: [aiden@aidengindin.com](mailto:aiden@aidengindin.com)
 - **LinkedIn**: [Aiden Gindin](https://www.linkedin.com/in/aidengindin/)
 - **Strava**: [Aiden Gindin](https://www.strava.com/athletes/24906255)
 
-## Professional Interests
+## Professional interests
 
 I'm particularly interested in:
 

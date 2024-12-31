@@ -9,7 +9,7 @@ Here are a couple of projects I’ve created or contributed to.
 
 My main focus at the moment, [KineticAI](https://github.com/aidengindin/KineticAI) is a showcase project combining my passion for endurance sports with data integration and analysis.
 Using a microservices architecture, the application loads data from third-party APIs into a database and performs various analytics, including weather impact modeling, AI-based sentiment analysis, and race prediction.
-While KineticAI is still in early development and I’m still working on implementing most of its planned features, I’m excited to bring my data engineering skills to one of my hobbies and built something I can get real value out of.
+While KineticAI is still in early development and I’m still working on implementing most of its planned features, I’m excited to bring my software and data engineering skills to one of my hobbies and build something I can get real value out of.
 
 # Personal website (this site!)
 
