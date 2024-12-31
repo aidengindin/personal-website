@@ -1,0 +1,9 @@
+{% extends "terminimal/templates/index.html" %}
+
+{% block content %}
+    <div class="post">
+        <article class="post__content">
+            {{ section.content | safe }}
+        </article>
+    </div>
+{% endblock content %} 
