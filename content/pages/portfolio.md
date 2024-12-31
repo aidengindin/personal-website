@@ -27,6 +27,7 @@ Key technical aspects:
   - Content written in Markdown
   - Local development using Nix flake for reproducible dev environment and consistent Zola versions
   - Git submodules for theme management
+  - Favicon generated using DALL-E 3
 
 Building this site didn't require any programming, but it was a chance for me to practice my DevOps skills.
 While the source code doesn't contain anything too interesting, it's publicly available on [GitHub](https://github.com/aidengindin/personal-website).

@@ -17,12 +17,10 @@ When I'm not coding, you'll typically find me outdoors - running, cycling, or sk
 
 ## Experience & skills
 
-
 - **Languages:** Java, Python, TypeScript, Go, Rust
 - **Technologies:** Spring Boot, Kafka, Angular, Docker, AWS
 - **Databases:** PostgreSQL, CockroachDB, MongoDB, Snowflake
 - **Focus Areas:** Distributed Systems, Data Engineering, Infrastructure, Machine Learning
-
 
 ## Featured projects
 
