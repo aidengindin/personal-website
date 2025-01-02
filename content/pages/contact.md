@@ -12,6 +12,7 @@ I'm always interested in discussing new opportunities, technical challenges, or 
 - **GitHub**: [@aidengindin](https://github.com/aidengindin)
 - **Email**: [aiden@aidengindin.com](mailto:aiden@aidengindin.com)
 - **LinkedIn**: [Aiden Gindin](https://www.linkedin.com/in/aidengindin/)
+- **X**: [@aidengindin](https://x.com/aidengindin)
 - **Strava**: [Aiden Gindin](https://www.strava.com/athletes/24906255)
 
 ## Professional interests
