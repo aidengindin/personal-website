@@ -42,6 +42,18 @@ menu_items = [
     { name = "github", url = "https://github.com/aidengindin", weight = 4 },
 ]
 
+author = "Aiden Gindin"
+
+copyright_html = """
+<div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+  <div>© 2025 Aiden Gindin</div>
+  <div>
+    <a href="https://github.com/aidengindin">GitHub</a> • <a href="https://www.linkedin.com/in/aidengindin">LinkedIn</a> • <a href="https://www.strava.com/athletes/24906255">Strava</a> • <a href="https://twitter.com/aidengindin">Twitter</a> • <a href="/atom.xml">RSS</a>
+  </div>
+  <div>Powered by <a href="https://www.zola.build/">Zola</a> :: Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/">Terminimal</a> by pawroman</div>
+</div>
+"""
+
 # Terminimal theme specific settings
 # Show post word count and read time
 show_word_count = true
