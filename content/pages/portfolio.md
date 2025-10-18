@@ -5,15 +5,37 @@ template = "page.html"
 
 Here are a couple of projects I’ve created or contributed to.
 
-# KineticAI
+# intervals-search
 
-My main focus at the moment, [KineticAI](https://github.com/aidengindin/KineticAI) is a showcase project combining my passion for endurance sports with data integration and analysis.
-Using a microservices architecture, the application loads data from third-party APIs into a database and performs various analytics, including weather impact modeling, AI-based sentiment analysis, and race prediction.
-While KineticAI is still in early development and I’m still working on implementing most of its planned features, I’m excited to bring my software and data engineering skills to one of my hobbies and build something I can get real value out of.
+Natural-language search for [intervals.icu](https://intervals.icu) workout data using OpenRouter's LLM API.
+Ask "show me hard bike rides from last month" and get filtered results.
 
-# Personal website (this site!)
+**Tech stack**: FastAPI, React, OpenRouter (gpt-5-mini), intervals.icu API
 
-A static site built with [Zola](https://www.getzola.org/) and the [Terminimal theme](https://github.com/pawroman/zola-theme-terminimal), featuring automated deployment to AWS S3.
+**Why I built it**: Wanted to explore LLM integration patterns and MCP.
+Also served as a reminder that I prefer backend development - I had Claude write all the CSS.
+
+[Code](https://github.com/aidengindin/intervals-search)
+
+# Homelab
+
+Mini PC running NixOS with Caddy reverse proxy, DNS server, Immich, Miniflux, Calibre, and other services.
+Plus a Raspberry Pi running Home Assistant OS.
+My [NixOS configuration](https://github.com/aidengindin/nixos-config) is highly modular and shared across multiple devices - the home server, my laptop, and formerly my Steam Deck.
+
+**Key features**:
+- Declarative management under version control for full reproducibility
+- Secrets (DB passwords, API keys) managed centrally with agenix
+- Services accessible only over a Tailscale VPN, with Caddy providing HTTPS
+- Automated backups via Restic
+
+**Why it matters**:
+When I break something during a rebuild (which is rare), Nix makes rollback trivial.
+Outside of my own mistakes, uptime has been 100%.
+
+# Personal website
+
+This site is built with [Zola](https://www.getzola.org/) and the [Terminimal theme](https://github.com/pawroman/zola-theme-terminimal), featuring automated deployment to AWS S3.
 Key technical aspects:
 
 - **CI/CD Pipeline**: GitHub Actions workflow that automatically builds and deploys on pushes to main
@@ -52,23 +74,6 @@ Granted, this was far from a production app - I was creating this solely for mys
 But if I were to start again, I’d do this very differently.
 I’d write the whole thing as a Python script and split out the script’s functionality into smaller functions, making the code much more readable and debuggable.
 
-# Homelab
-
-I have a mini PC running NixOS serving a Caddy reverse proxy, a DNS server, Immich, FreshRSS, Calibre, and a few other services, plus a Raspberry Pi running Home Assistant OS.
-My [NixOS configuration](https://github.com/aidengindin/nixos-config) is designed to be highly modular and shared across multiple devices; it’s used by both the home server and my MacBook, and for a while it ran on my Steam Deck, too.
-This allows me to have a consistent setup across all my devices, and makes setting up new devices a breeze.
-Services are configured as a mix of native NixOS modules and Nix-defined Docker containers, though in the past I’ve used Docker Compose.
-While I’ve occasionally taken the server down by rebuilding with a bad configuration, Nix makes it easy to roll back to a working configuration, and outside of rebuilds the server has been 100% reliable.
-
-A few of my favorite parts of the setup:
-
-- The setup is as declarative as possible, with nearly all application configuration under version control, ensuring reproducibility
-- Secrets such as database passwords and API keys are centrally managed using agenix
-- All services are only accessible over Tailscale, with Caddy adding HTTPS support
-- I’ve overridden the [Caddy derivation](https://github.com/aidengindin/nixos-config/blob/main/services/caddy.nix) to add support for Cloudflare, which enables automatic HTTPS for all services
-- Restic backs up application data
-
-(I love Home Assistant, too, but I haven’t done enough with it to merit inclusion on my portfolio page.)
 
 # Imperative language interpreter
 
@@ -82,15 +87,8 @@ Because it was a class project, I’m not able to post the source code publicly,
 As part of a networks class (CSDS 425), I built a basic HTTP/1.1 web server in Java with support for persistent connections.
 Because it was a class project, I’m not able to post the source code publicly, but it is available upon request.
 
-# Recipes app
-
-For my senior project at CWRU, I worked with a group to develop a web-based recipe management app using Angular and Firebase.
-I focused primarily on creating Angular services to interface with the backend database.
-Because it was a class project, I’m not able to post the source code publicly, but it is available upon request.
-
 # Simple traceroute
 
 For the same networks class, I built a simple traceroute tool in Python to measure the number of hops to a remote host.
 Like the HTTP server, I can’t post the source code publicly, but it is available upon request.
 
-Want to see more? Check out my [GitHub profile](https://github.com/aidengindin) or [contact me](/pages/contact) to discuss potential collaborations. 

@@ -38,7 +38,6 @@ logo_text = "Aiden Gindin"
 menu_items = [
     { name = "blog", url = "/blog", weight = 1 },
     { name = "portfolio", url = "/pages/portfolio", weight = 2 },
-    { name = "contact", url = "/pages/contact", weight = 3 },
     { name = "github", url = "https://github.com/aidengindin", weight = 4 },
 ]
 
